@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="Ru">
+
+<head>
+    <title>Задание №1</title>
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="container">
+    <div class="header">
+        <img id="logo" style="float:left; margin:10px; width:110px; height:76px;" src="https://img2.freepng.ru/20180413/zxe/kisspng-imgur-cat-youtube-kitten-black-cat-5ad12bf57fa765.1577123315236577175229.jpg">
+        <h1 class="text_header">Разработка web страницы</h1>
+    </div>
+
+
+    <nav class="menu">
+        <a href=#task1 class="current">Задание 3</a>
+        <a href=#table>Таблица</a>
+        <a href=#forma>Форма</a>
+
+    </nav>
+
+    <div class="links">
+        <h1 id="task1">Задание 3</h1>
+        <ol>
+            <li><a href="http://www.example.com"> абсолютную гиперссылку на главную страницу сайта example.com</a>
+            </li>
+            <li><a href="https://www.example.com"> абсолютную на главную сайта example.com в протоколе https</a>
+            </li>
+            <li><a href="ftp://example.com/file.zip"> ссылку на файл на сервере FTP без авторизации</a></li>
+            <li><a href="ftp://user:password@example.com/file.zip"> ссылку на файл на сервере FTP с авторизации</a>
+            </li>
+            <li><a href="https://mfd.ru/centrobank/preciousmetals/">ссылку на фрагмент страницы некоторого
+                        сайта></a>
+            </li>
+            <li><a href="#top">ссылку на фрагмент текущей страницы</a></li>
+            <li><a href="https://www.avito.ru/krasnodar/avtomobili?cd=1&radius=200">ссылка с двумя параметрами в
+                        URL</a>
+            </li>
+            <li>список ссылок основной навигации сайта с подписями title :
+                <p>Навигация по Avito</p>
+                <ul>
+                    <li><a title="https://www.avito.ru/">Главная страница Авито</a></li>
+                    <li><a title="https://www.avito.ru/krasnodar/avtomobili?cd=1&radius=200">Покупка автомобилей</a>
+                    </li>
+                    <li><a title="https://www.avito.ru/krasnodar/kvartiry/prodam-ASgBAgICAUSSA8YQ?cd=1">Покупка
+                                квартиры</a></li>
+                    <li><a title="https://www.avito.ru/krasnodar/vakansii?cd=1">Работа вакансии</a></li>
+                    <li><a title="https://www.avito.ru/krasnodar/predlozheniya_uslug?cd=1">Услуги</a></li>
+                </ul>
+                <li><a title="">Ссылка без href -» https://ru.wikipedia.org/wiki/Википедия</a></li>
+                <li><a href="">ссылка с пустым href</a></li>
+                <li>
+                    <noindex><a href="https://www.ivi.ru/movies/2021" rel="nofollow">ссылку, по которой запрещен переход
+                            поисковикам></a>
+                </li>
+                <li><a href="https://ru.wikipedia.org/wiki/Вторая_мировая_война">запрещенную для индексации
+                        поисковиками</a>
+                    </noindex>
+                </li>
+                <li>Проект по экологическому воспитанию<a href="https://infourok.ru/proekt-po-ekologii-sohranim-prirodu-vmeste-5265987.html">«Сохраним
+                        природу
+                        вместе».</a></li>
+                <li><img src="https://murmuriki.ru/wp-content/uploads/2017/01/maine-coon-silver.jpg" alt="cote" width="320" height="240" usemap="#cotte"></li>
+                <map name="cotte">
+                    <area shape="circle" coords="111,103,40" href="https://ru.wikipedia.org/wiki/Мейн-кун" alt="Кот"
+                        target="_blank">
+                </map>
+                <li><img src="https://s3.nat-geo.ru/images/2019/5/16/dd6ce4c280934c7a814238b4282a9709.max-1200x800.jpg" alt="kisa_foto" width="320" height="240" usemap="#kotan">
+                    <map name="kotan">
+                        <area shape="rect" coords="140,53,259,166F" href="https://ru.wikipedia.org/wiki/Амурский_тигр"
+                            alt="Тигр" target="_blank">
+                    </map>
+                </li>
+                <li><a href="./exaple.html">в текущем каталоге</a></li>
+                <li><a href="./about/example.html">в каталоге about</a></li>
+                <li><a href="../example.html">в каталоге на x1 уровень выше</a></li>
+                <li><a href="../../example.html">в каталоге на x2 уровня выше</a></li>
+                <li><a href="/"> Сокращенная ссылка на главную </a></li>
+                <li><a href="/input">Сокращенная ссылка на внутреннюю </a></li>
+        </ol>
+    </div>
+    <div class="table">
+        <h2 id="table">Таблица</h2>
+        <table width:100%; border="2">
+
+            <tr>
+                <th>Имя</th>
+                <th>Фамилия</th>
+                <th>Очество</th>
+            </tr>
+
+            <tr>
+                <td>Иван</td>
+                <td>Пётр</td>
+                <td>Александр</td>
+            </tr>
+
+            <tr>
+                <td>Иванов</td>
+                <td>Петров</td>
+                <td>Иванов</td>
+            </tr>
+
+            <tr>
+                <td>Иванович</td>
+                <td>Петрович</td>
+                <td>Александрович</td>
+            </tr>
+        </table>
+    </div>
+    <div class="forma">
+        <h2 id="forma">Форма</h2>
+        <form action="#" method="post">
+            <label>
+                    Имя:<br />
+                    <input type="text" name="username" value="">
+                </label><br />
+            <label>
+                    E-mail:<br />
+                    <input type="email" name="email" value="">
+                </label><br />
+            <label>
+                    Дата рождения:<br />
+                    <input Example Domain example.com Example Domain example.com type="date" name="birthday"
+                        value=""></label><br /> Пол:
+
+
+
+            <br />
+            <label><input type="radio" checked="checked" name="radio-group-1" value="Значение1" />
+                    женский</label>
+            <label><input type="radio" name="radio-group-1" value="Значение2" />
+                    мужской</label><br />
+        </form>
+
+        Количество конечностей:<br />
+        <label><input type="radio" checked="checked" name="radio-group-1" value="Значение1" />
+                0</label>
+        <label><input type="radio" name="radio-group-1" value="Значение2" />
+                1</label>
+        <label><input type="radio" name="radio-group-1" value="Значение2" />
+                2</label>
+        <label><input type="radio" name="radio-group-1" />
+            </label>
+
+        <p>
+            Сверхспособности:<br />
+            <select name="field-name-3" multiple="multiple">
+                    <option value="Значение1" selected="selected">Бессмертие</option>
+                    <option value="Значение2">Прохождение сквозь стены</option>
+                    <option value="Значение3">Левитация</option>
+                </select>
+            <br /> Биография:
+            <p>
+                <textarea autofocus></textarea>
+                <p>
+                    <input type="checkbox"> с контрактом ознакомлен (а)
+                    <p><button>«Отправить»</button>
+    </div>
+    <div class="footer">
+        (c) Козлов Александр 2021
+    </div>
+
+</body>
+
+</html>
